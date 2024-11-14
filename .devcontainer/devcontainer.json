@@ -12,12 +12,13 @@
   "hostRequirements": {
     "memory": "16gb"
   },
+  "postCreateCommand": "python3 -m venv /workspaces/demo-codespace/.virtpy; /workspaces/demo-codespace/.virtpy/bin/pip install -r /workspaces/demo-codespace/requirements.txt",
   "customizations": {
     "codespaces": {
       "openFiles": ["welcome.smd"]
     },
     "vscode": {
-      "extensions": ["stencila.stencila"],
+      "extensions": ["usernamehw.errorlens", "stencila.stencila"],
       "settings": {
         // See here for VSCode settings and their defaults
         // https://code.visualstudio.com/docs/getstarted/settings#_default-settings
