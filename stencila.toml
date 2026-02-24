@@ -1,0 +1,13 @@
+[workspace]
+id = "wsbef40d6653"
+watch = "wakvhhy64utu"
+
+[site]
+exclude = [
+  ".git/**",
+  ".stencila/**",
+  "stencila.local.toml",
+]
+
+[outputs]
+"welcome.pdf" = "welcome.smd"
